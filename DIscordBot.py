@@ -74,7 +74,9 @@ async def on_message(message):
 
                 # メッセージが送られてきたチャンネルへメッセージを送ります
                 await client.send_message(message.channel, m)
-            
+
+                print("test")
+                print("hello") 
             #作業中でない場合
             else:
                 # メッセージ作成
